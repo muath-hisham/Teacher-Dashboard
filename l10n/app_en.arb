@@ -1,0 +1,168 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Teacher Dashboard",
+
+  "classesTab": "Classes",
+  "timetableTab": "Timetable",
+  "reportsTab": "Reports",
+  "settingsTab": "Settings",
+
+  "classesScreenTitle": "Classes",
+  "classDetailsScreenTitle": "Class Details",
+  "attendanceScreenTitle": "Attendance",
+  "reportsScreenTitle": "Reports",
+  "timetableScreenTitle": "Weekly Timetable",
+  "notesScreenTitle": "Notes",
+  "settingsScreenTitle": "Settings",
+
+  "phaseIndicator": "Coming in Phase {phase}",
+  "@phaseIndicator": {
+    "placeholders": {
+      "phase": { "type": "int" }
+    }
+  },
+
+  "comingSoon": "Coming soon",
+
+  "classesDescription": "Manage classes and students",
+  "attendanceDescription": "Record and track attendance",
+  "reportsDescription": "Attendance reports and statistics",
+  "timetableDescription": "Weekly class timetable",
+  "notesDescription": "Class-specific notes",
+
+  "statusPresent": "Present",
+  "statusAbsent": "Absent",
+  "statusLate": "Late",
+  "statusExcused": "Excused",
+
+  "settingsThemeMode": "Theme mode",
+  "settingsThemeSystem": "System default",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+
+  "settingsCountryCode": "Default country code",
+  "settingsCountryCodeHint": "e.g. +20",
+  "settingsCountryCodeInvalid": "Invalid code (e.g. +20)",
+
+  "settingsLanguage": "Language",
+  "settingsLanguageArabic": "العربية",
+  "settingsLanguageEnglish": "English",
+  "settingsLanguageSystem": "System default",
+
+  "settingsGeneral": "General",
+  "settingsAppearance": "Appearance",
+
+  "addClass": "Add class",
+  "editClass": "Edit class",
+  "deleteClass": "Delete class",
+  "className": "Class name",
+  "classNameHint": "e.g. Grade 1",
+  "classNameRequired": "Class name is required",
+  "classNameTooLong": "Class name is too long",
+  "deleteClassConfirmTitle": "Delete class?",
+  "deleteClassConfirmBody": "All students, sessions, and attendance records for this class will be permanently deleted.",
+  "noClassesTitle": "No classes yet",
+  "noClassesSubtitle": "Add your first class to get started",
+  "studentCount": "{count, plural, =0{No students} =1{1 student} other{{count} students}}",
+  "@studentCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "addStudent": "Add student",
+  "editStudent": "Edit student",
+  "deleteStudent": "Delete student",
+  "studentName": "Student name",
+  "studentNameHint": "Full name",
+  "studentNameRequired": "Student name is required",
+  "studentPhone": "Phone number",
+  "studentPhoneHint": "Student phone number",
+  "studentGuardianPhone": "Guardian phone",
+  "studentGuardianPhoneHint": "Guardian phone number",
+  "deleteStudentConfirmTitle": "Delete student?",
+  "deleteStudentConfirmBody": "The student and all their attendance records will be permanently deleted.",
+  "noStudentsTitle": "No students yet",
+  "noStudentsSubtitle": "Add your first student to this class",
+  "searchStudents": "Search students...",
+  "noStudentsFoundTitle": "No students found",
+  "invalidPhoneNumber": "Invalid phone number",
+
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  "rename": "Rename",
+  "search": "Search",
+
+  "sessions": "Sessions",
+  "addSession": "Add session",
+  "editSession": "Edit session",
+  "deleteSession": "Delete session",
+  "sessionTitle": "Session title",
+  "sessionTitleHint": "e.g. Lesson 1",
+  "sessionTitleRequired": "Session title is required",
+  "sessionDate": "Date",
+  "sessionTime": "Time",
+  "sessionLink": "Link (optional)",
+  "sessionLinkHint": "Teams, Zoom link etc.",
+  "deleteSessionConfirmTitle": "Delete session?",
+  "deleteSessionConfirmBody": "The session and its attendance records will be permanently deleted.",
+  "noSessionsTitle": "No sessions yet",
+  "noSessionsSubtitle": "Add your first session",
+
+  "attendance": "Attendance",
+  "markAllPresent": "Mark all present",
+  "markAllAbsent": "Mark all absent",
+  "attendanceNote": "Note (optional)",
+  "attendanceSaved": "Attendance saved successfully",
+  
+  "sendWhatsApp": "Send via WhatsApp",
+  "whatsappAll": "To all students",
+  "whatsappAbsent": "To absent students only",
+  "whatsappLaunchFailed": "Could not launch WhatsApp. Ensure it is installed.",
+  "whatsappTemplate": "Hello, here is the link for ({title}): {link}",
+  "@whatsappTemplate": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "link": { "type": "String" }
+    }
+  },
+  "timetableAndNotesTitle": "Timetable & Notes",
+  "timetable": "Timetable",
+  "notes": "Notes",
+  "sunday": "Sun",
+  "monday": "Mon",
+  "tuesday": "Tue",
+  "wednesday": "Wed",
+  "thursday": "Thu",
+  "friday": "Fri",
+  "saturday": "Sat",
+  "assignClass": "Assign Class",
+  "clear": "Clear",
+  "noNotesSubtitle": "No notes available.",
+  "addNote": "Add Note",
+  "editNote": "Edit Note",
+  "attachToClass": "Attach to class (optional)",
+  "none": "None",
+  "noteBody": "Note content",
+  "requiredField": "Required",
+  "reports": "Reports",
+  "noClassesSubtitle": "No classes available.",
+  "attendanceRate": "Attendance Rate",
+  "totalSessions": "Sessions",
+  "studentRankings": "Student Absences",
+  "studentReport": "Student Report",
+  "statusBreakdown": "Status Breakdown",
+  "sessionHistory": "Session History",
+  "backupSection": "Backup & Restore",
+  "exportDatabase": "Export Database",
+  "importDatabase": "Import Database",
+  "importWarningTitle": "Import Warning",
+  "importWarningBody": "Importing a database will entirely replace your current data and cannot be undone. Are you sure?",
+  "cancel": "Cancel",
+  "restoreSuccess": "Database restored successfully.",
+  "deleteNoteConfirmTitle": "Delete note?",
+  "deleteNoteConfirmBody": "This note will be permanently deleted. Are you sure?"
+}

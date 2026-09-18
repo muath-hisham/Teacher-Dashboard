@@ -1,0 +1,168 @@
+{
+  "@@locale": "ar",
+
+  "appTitle": "لوحة المعلم",
+
+  "classesTab": "الصفوف",
+  "timetableTab": "الجدول",
+  "reportsTab": "التقارير",
+  "settingsTab": "الإعدادات",
+
+  "classesScreenTitle": "الصفوف",
+  "classDetailsScreenTitle": "تفاصيل الصف",
+  "attendanceScreenTitle": "الحضور",
+  "reportsScreenTitle": "التقارير",
+  "timetableScreenTitle": "الجدول الأسبوعي",
+  "notesScreenTitle": "الملاحظات",
+  "settingsScreenTitle": "الإعدادات",
+
+  "phaseIndicator": "سيتم التنفيذ في المرحلة {phase}",
+  "@phaseIndicator": {
+    "placeholders": {
+      "phase": { "type": "int" }
+    }
+  },
+
+  "comingSoon": "قريبًا",
+
+  "classesDescription": "إدارة الصفوف والطلاب",
+  "attendanceDescription": "تسجيل ومتابعة الحضور",
+  "reportsDescription": "تقارير وإحصائيات الحضور",
+  "timetableDescription": "الجدول الأسبوعي للحصص",
+  "notesDescription": "ملاحظات خاصة بالصفوف",
+
+  "statusPresent": "حاضر",
+  "statusAbsent": "غائب",
+  "statusLate": "متأخر",
+  "statusExcused": "معذور",
+
+  "settingsThemeMode": "وضع المظهر",
+  "settingsThemeSystem": "تلقائي (النظام)",
+  "settingsThemeLight": "فاتح",
+  "settingsThemeDark": "داكن",
+
+  "settingsCountryCode": "رمز الدولة الافتراضي",
+  "settingsCountryCodeHint": "مثال: +20",
+  "settingsCountryCodeInvalid": "رمز غير صالح (مثال: +20)",
+
+  "settingsLanguage": "اللغة",
+  "settingsLanguageArabic": "العربية",
+  "settingsLanguageEnglish": "English",
+  "settingsLanguageSystem": "تلقائي (النظام)",
+
+  "settingsGeneral": "عام",
+  "settingsAppearance": "المظهر",
+
+  "addClass": "إضافة صف",
+  "editClass": "تعديل الصف",
+  "deleteClass": "حذف الصف",
+  "className": "اسم الصف",
+  "classNameHint": "مثال: الصف الأول",
+  "classNameRequired": "اسم الصف مطلوب",
+  "classNameTooLong": "اسم الصف طويل جدًا",
+  "deleteClassConfirmTitle": "حذف الصف؟",
+  "deleteClassConfirmBody": "سيتم حذف جميع الطلاب والحصص وسجلات الحضور المرتبطة بهذا الصف نهائيًا.",
+  "noClassesTitle": "لا توجد صفوف بعد",
+  "noClassesSubtitle": "أضف صفك الأول للبدء",
+  "studentCount": "{count, plural, =0{لا يوجد طلاب} =1{طالب واحد} =2{طالبان} few{{count} طلاب} other{{count} طالب}}",
+  "@studentCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "addStudent": "إضافة طالب",
+  "editStudent": "تعديل الطالب",
+  "deleteStudent": "حذف الطالب",
+  "studentName": "اسم الطالب",
+  "studentNameHint": "الاسم الكامل",
+  "studentNameRequired": "اسم الطالب مطلوب",
+  "studentPhone": "رقم الهاتف",
+  "studentPhoneHint": "رقم هاتف الطالب",
+  "studentGuardianPhone": "رقم ولي الأمر",
+  "studentGuardianPhoneHint": "رقم هاتف ولي الأمر",
+  "deleteStudentConfirmTitle": "حذف الطالب؟",
+  "deleteStudentConfirmBody": "سيتم حذف الطالب وجميع سجلات حضوره نهائيًا.",
+  "noStudentsTitle": "لا يوجد طلاب بعد",
+  "noStudentsSubtitle": "أضف طالبك الأول لهذا الصف",
+  "searchStudents": "بحث عن طالب...",
+  "noStudentsFoundTitle": "لم يتم العثور على طلاب",
+  "invalidPhoneNumber": "رقم هاتف غير صالح",
+
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "rename": "إعادة تسمية",
+  "search": "بحث",
+
+  "sessions": "الحصص",
+  "addSession": "إضافة حصة",
+  "editSession": "تعديل الحصة",
+  "deleteSession": "حذف الحصة",
+  "sessionTitle": "عنوان الحصة",
+  "sessionTitleHint": "مثال: الدرس الأول",
+  "sessionTitleRequired": "عنوان الحصة مطلوب",
+  "sessionDate": "تاريخ الحصة",
+  "sessionTime": "وقت الحصة",
+  "sessionLink": "رابط الحصة (اختياري)",
+  "sessionLinkHint": "رابط تيمز، زووم، إلخ",
+  "deleteSessionConfirmTitle": "حذف الحصة؟",
+  "deleteSessionConfirmBody": "سيتم حذف الحصة وسجلات الحضور المرتبطة بها نهائيًا.",
+  "noSessionsTitle": "لا توجد حصص بعد",
+  "noSessionsSubtitle": "أضف حصتك الأولى",
+
+  "attendance": "الحضور",
+  "markAllPresent": "تحديد الكل كحاضر",
+  "markAllAbsent": "تحديد الكل كغائب",
+  "attendanceNote": "ملاحظة (اختياري)",
+  "attendanceSaved": "تم حفظ الحضور بنجاح",
+  
+  "sendWhatsApp": "إرسال عبر واتساب",
+  "whatsappAll": "إلى جميع الطلاب",
+  "whatsappAbsent": "إلى الغائبين فقط",
+  "whatsappLaunchFailed": "تعذر فتح تطبيق واتساب. تأكد من تثبيته على جهازك.",
+  "whatsappTemplate": "السلام عليكم، رابط حصة ({title}): {link}",
+  "@whatsappTemplate": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "link": { "type": "String" }
+    }
+  },
+  "timetableAndNotesTitle": "الجدول والملاحظات",
+  "timetable": "الجدول",
+  "notes": "الملاحظات",
+  "sunday": "الأحد",
+  "monday": "الإثنين",
+  "tuesday": "الثلاثاء",
+  "wednesday": "الأربعاء",
+  "thursday": "الخميس",
+  "friday": "الجمعة",
+  "saturday": "السبت",
+  "assignClass": "تعيين صف",
+  "clear": "مسح",
+  "noNotesSubtitle": "لا توجد ملاحظات.",
+  "addNote": "إضافة ملاحظة",
+  "editNote": "تعديل الملاحظة",
+  "attachToClass": "إرفاق بصف (اختياري)",
+  "none": "لا يوجد",
+  "noteBody": "نص الملاحظة",
+  "requiredField": "مطلوب",
+  "reports": "التقارير",
+  "noClassesSubtitle": "لا توجد صفوف لعرض تقاريرها.",
+  "attendanceRate": "نسبة الحضور",
+  "totalSessions": "الحصص",
+  "studentRankings": "غيابات الطلاب",
+  "studentReport": "تقرير الطالب",
+  "statusBreakdown": "تفصيل الحضور",
+  "sessionHistory": "سجل الحصص",
+  "backupSection": "النسخ الاحتياطي والاستعادة",
+  "exportDatabase": "تصدير قاعدة البيانات",
+  "importDatabase": "استيراد قاعدة البيانات",
+  "importWarningTitle": "تحذير استيراد البيانات",
+  "importWarningBody": "سيؤدي استيراد قاعدة البيانات إلى استبدال جميع البيانات الحالية بالكامل ولن يمكن التراجع عن هذه العملية. هل أنت متأكد؟",
+  "cancel": "إلغاء",
+  "restoreSuccess": "تمت استعادة البيانات بنجاح",
+  "deleteNoteConfirmTitle": "حذف الملاحظة؟",
+  "deleteNoteConfirmBody": "سيتم حذف هذه الملاحظة نهائيًا. هل أنت متأكد؟"
+}
